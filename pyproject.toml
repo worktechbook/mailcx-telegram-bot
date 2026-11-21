@@ -1,0 +1,9 @@
+[project]
+name = "mailcx-telegram-bot"
+version = "0.1.0"
+dependencies = [
+    "requests"
+]
+
+[tool.vercel]
+entrypoint = "api.webhook:handler"
